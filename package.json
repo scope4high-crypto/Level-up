@@ -1,0 +1,16 @@
+{
+  "name": "solo-leveling-bot",
+  "version": "1.0.0",
+  "description": "A Discord bot with Solo Leveling-inspired quest and progression system",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js"
+  },
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "discord.js": "^14.25.1",
+    "dotenv": "^17.2.3"
+  }
+}
